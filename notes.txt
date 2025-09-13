@@ -1,0 +1,29 @@
+1. Create an environment 
+conda create -p venv python==3.8 -y
+
+2. activarte the environment
+conda activate venv/
+
+3. Inicialize the git-repository
+git init
+git add README.md
+git branch -M main
+git remote add origin https://github.com/Pratapj8/ml_project.git
+git push -u origin main
+git status
+git remote -v
+git branch
+
+git pull 
+
+- Git Configuration
+https://git-scm.com/book/en/v2/Customizing-Git-Git-Configuration
+git config --global user.email
+git config --global user.email pratap.jadhav0@gmail.com
+
+
+4. if we have -e . at the end of requirements.txt it will trigger the setup.py file (editable mode)
+ pip install -r requirements.txt
+
+5. 
+
